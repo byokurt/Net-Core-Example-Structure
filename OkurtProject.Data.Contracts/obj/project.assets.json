@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OkurtProject.Business.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/OkurtProject.Business.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OkurtProject.Business.DTO.dll": {}
+        }
+      },
+      "OkurtProject.Data.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/OkurtProject.Data.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OkurtProject.Data.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OkurtProject.Business.DTO/1.0.0": {
+      "type": "project",
+      "path": "../OkurtProject.Business.DTO/OkurtProject.Business.DTO.csproj",
+      "msbuildProject": "../OkurtProject.Business.DTO/OkurtProject.Business.DTO.csproj"
+    },
+    "OkurtProject.Data.Entity/1.0.0": {
+      "type": "project",
+      "path": "../OkurtProject.Data.Entity/OkurtProject.Data.Entity.csproj",
+      "msbuildProject": "../OkurtProject.Data.Entity/OkurtProject.Data.Entity.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "OkurtProject.Business.DTO >= 1.0.0",
+      "OkurtProject.Data.Entity >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\osman\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\OkurtProject.Data.Contracts.csproj",
+      "projectName": "OkurtProject.Data.Contracts",
+      "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\OkurtProject.Data.Contracts.csproj",
+      "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+      "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj": {
+              "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj"
+            },
+            "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj": {
+              "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

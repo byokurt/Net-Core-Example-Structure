@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OkurtProject.Business.Contracts\OkurtProject.Business.Contracts.csproj" />
+    <ProjectReference Include="..\OkurtProject.Client.API.Bootstrapper\OkurtProject.Client.API.Bootstrapper.csproj" />
+    <ProjectReference Include="..\OkurtProject.Client.API.Middleware\OkurtProject.Client.API.Middleware.csproj" />
+    <ProjectReference Include="..\OkurtProject.Client.DTO\OkurtProject.Client.DTO.csproj" />
+  </ItemGroup>
+
+
+</Project>

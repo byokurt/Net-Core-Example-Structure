@@ -1,0 +1,843 @@
+{
+  "format": 1,
+  "restore": {
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API\\OkurtProject.Client.API.csproj": {}
+  },
+  "projects": {
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.Contracts\\OkurtProject.Business.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.Contracts\\OkurtProject.Business.Contracts.csproj",
+        "projectName": "OkurtProject.Business.Contracts",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.Contracts\\OkurtProject.Business.Contracts.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj",
+        "projectName": "OkurtProject.Business.DTO",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business\\OkurtProject.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business\\OkurtProject.Business.csproj",
+        "projectName": "OkurtProject.Business",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business\\OkurtProject.Business.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.Contracts\\OkurtProject.Business.Contracts.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.Contracts\\OkurtProject.Business.Contracts.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\OkurtProject.Data.Contracts.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\OkurtProject.Data.Contracts.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data\\OkurtProject.Data.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data\\OkurtProject.Data.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils.ExceptionHandling\\OkurtProject.Utils.ExceptionHandling.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils.ExceptionHandling\\OkurtProject.Utils.ExceptionHandling.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\OkurtProject.Utils.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\OkurtProject.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Bootstrapper\\OkurtProject.Client.API.Bootstrapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Bootstrapper\\OkurtProject.Client.API.Bootstrapper.csproj",
+        "projectName": "OkurtProject.Client.API.Bootstrapper",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Bootstrapper\\OkurtProject.Client.API.Bootstrapper.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Bootstrapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business\\OkurtProject.Business.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business\\OkurtProject.Business.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data\\OkurtProject.Data.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data\\OkurtProject.Data.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\OkurtProject.Utils.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\OkurtProject.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.ResponseCompression": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Middleware\\OkurtProject.Client.API.Middleware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Middleware\\OkurtProject.Client.API.Middleware.csproj",
+        "projectName": "OkurtProject.Client.API.Middleware",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Middleware\\OkurtProject.Client.API.Middleware.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Middleware\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.DTO\\OkurtProject.Client.DTO.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.DTO\\OkurtProject.Client.DTO.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils.ExceptionHandling\\OkurtProject.Utils.ExceptionHandling.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils.ExceptionHandling\\OkurtProject.Utils.ExceptionHandling.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\OkurtProject.Utils.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\OkurtProject.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API\\OkurtProject.Client.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API\\OkurtProject.Client.API.csproj",
+        "projectName": "OkurtProject.Client.API",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API\\OkurtProject.Client.API.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.Contracts\\OkurtProject.Business.Contracts.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.Contracts\\OkurtProject.Business.Contracts.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Bootstrapper\\OkurtProject.Client.API.Bootstrapper.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Bootstrapper\\OkurtProject.Client.API.Bootstrapper.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Middleware\\OkurtProject.Client.API.Middleware.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.API.Middleware\\OkurtProject.Client.API.Middleware.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.DTO\\OkurtProject.Client.DTO.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.DTO\\OkurtProject.Client.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.DTO\\OkurtProject.Client.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.DTO\\OkurtProject.Client.DTO.csproj",
+        "projectName": "OkurtProject.Client.DTO",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.DTO\\OkurtProject.Client.DTO.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\OkurtProject.Data.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\OkurtProject.Data.Contracts.csproj",
+        "projectName": "OkurtProject.Data.Contracts",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\OkurtProject.Data.Contracts.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj",
+        "projectName": "OkurtProject.Data.Entity",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data\\OkurtProject.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data\\OkurtProject.Data.csproj",
+        "projectName": "OkurtProject.Data",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data\\OkurtProject.Data.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Business.DTO\\OkurtProject.Business.DTO.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\OkurtProject.Data.Contracts.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Contracts\\OkurtProject.Data.Contracts.csproj"
+              },
+              "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj": {
+                "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Data.Entity\\OkurtProject.Data.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils.ExceptionHandling\\OkurtProject.Utils.ExceptionHandling.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils.ExceptionHandling\\OkurtProject.Utils.ExceptionHandling.csproj",
+        "projectName": "OkurtProject.Utils.ExceptionHandling",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils.ExceptionHandling\\OkurtProject.Utils.ExceptionHandling.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils.ExceptionHandling\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\OkurtProject.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\OkurtProject.Utils.csproj",
+        "projectName": "OkurtProject.Utils",
+        "projectPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\OkurtProject.Utils.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OkurtProject.Business.Contracts/1.0.0": {
+        "dependencies": {
+          "OkurtProject.Business.DTO": "1.0.0",
+          "OkurtProject.Data.Entity": "1.0.0"
+        },
+        "runtime": {
+          "OkurtProject.Business.Contracts.dll": {}
+        }
+      },
+      "OkurtProject.Business.DTO/1.0.0": {
+        "runtime": {
+          "OkurtProject.Business.DTO.dll": {}
+        }
+      },
+      "OkurtProject.Data.Entity/1.0.0": {
+        "runtime": {
+          "OkurtProject.Data.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OkurtProject.Business.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OkurtProject.Business.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OkurtProject.Data.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

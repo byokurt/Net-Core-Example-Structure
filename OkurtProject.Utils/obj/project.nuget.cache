@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "FR+X0d6A3jYh0ZomNZPK90VJYGqVgY0xDmYuzmIYxueI+7xi8Hs98GTI5SDhFu1ielFOtnaFIf9TmjMrrNJ0og==",
+  "success": true,
+  "projectFilePath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils\\OkurtProject.Utils.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\osman\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.4\\microsoft.aspnetcore.authorization.3.1.4.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.4\\microsoft.aspnetcore.metadata.3.1.4.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.4\\microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\microsoft.extensions.options\\3.1.4\\microsoft.extensions.options.3.1.4.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

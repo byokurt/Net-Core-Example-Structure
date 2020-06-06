@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WQYfhHTpGdqmg7jjlXC3D6dZ/Qh0AgqaS+DTIqRGC1oa6e6bSejtVQDE7kUMiSHL6/2g/VMb01MH7pZrBAYygw==",
+  "success": true,
+  "projectFilePath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Client.DTO\\OkurtProject.Client.DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\osman\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

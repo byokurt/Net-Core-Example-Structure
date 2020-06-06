@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OkurtProject.Business.DTO\OkurtProject.Business.DTO.csproj" />
+    <ProjectReference Include="..\OkurtProject.Business.Operator.Contracts\OkurtProject.Business.Operator.Contracts.csproj" />
+    <ProjectReference Include="..\OkurtProject.Data.Entity\OkurtProject.Data.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

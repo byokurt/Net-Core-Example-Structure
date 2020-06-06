@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "YXatFzU9Qfd1tqAEP0ZizI2WF1OFU4LfuzpkiVpEIAqEVe7lD9/Wl4BcWAJ1Uq7wzY63uhjiNd2ppTGDPFIvPA==",
+  "success": true,
+  "projectFilePath": "Y:\\WebProjeleri\\Net-Core-Example-Structure\\OkurtProject.Utils.ExceptionHandling\\OkurtProject.Utils.ExceptionHandling.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\osman\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.2\\fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.2\\fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

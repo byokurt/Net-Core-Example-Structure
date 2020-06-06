@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OkurtProject.Business.Contracts\OkurtProject.Business.Contracts.csproj" />
+    <ProjectReference Include="..\OkurtProject.Business.DTO\OkurtProject.Business.DTO.csproj" />
+    <ProjectReference Include="..\OkurtProject.Data.Contracts\OkurtProject.Data.Contracts.csproj" />
+    <ProjectReference Include="..\OkurtProject.Data\OkurtProject.Data.csproj" />
+    <ProjectReference Include="..\OkurtProject.Utils.ExceptionHandling\OkurtProject.Utils.ExceptionHandling.csproj" />
+    <ProjectReference Include="..\OkurtProject.Utils\OkurtProject.Utils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Validation\" />
+  </ItemGroup>
+
+</Project>

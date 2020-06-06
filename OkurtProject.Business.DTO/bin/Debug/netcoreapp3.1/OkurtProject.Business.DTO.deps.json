@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OkurtProject.Business.DTO/1.0.0": {
+        "runtime": {
+          "OkurtProject.Business.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OkurtProject.Business.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
